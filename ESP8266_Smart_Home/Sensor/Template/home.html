@@ -5,14 +5,15 @@
     <title>Home</title>
 </head>
 <body bgcolor="#f0ffff">
-    <p>GAS: {{ gas }}
-    TEMP <br>
-        IN: {{ temp_in }} C°<br>
-        OUT: {{ temp_out }} C°<br>
-        RAIN: {{ rain_status }} <br>
-        <a href="RFID_log/"></a>
+<center>
+    <p>GAS: {{ GAS }}
+    <h4>TEMP</h4>
+        IN: {{ Temp_I }} C°<br>
+        OUT: {{ Temp_O }} C°<br>
+        RAIN: {{ Rain }} <br>
+        <a href="/RFID_log/">RFID_Log</a>
     </p>
      <br><br>
-     {{ Sensor_val }}
+</center>
 </body>
 </html>

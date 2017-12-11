@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Setting</title>
+</head>
+<body bgcolor="#f0ffff">
+<center>
+    <form method="post"> {% csrf_token %}
+    <h4>GAS ALERT AT:</h4>
+        <p><input type="text" name="gs" placeholder={{ GAS_alert }}> % <input type="submit" value="OK" name="OK"></input></p>
+    <h4>Rain: {{ Rain_status }}</h4>
+    <p><input type="submit" value="ON" name="ON"> <input type="submit" value="OFF" name="OFF"> </p>
+    </form>
+</center>
+</body>
+</html>

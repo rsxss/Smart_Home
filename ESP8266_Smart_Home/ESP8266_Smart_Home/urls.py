@@ -20,4 +20,6 @@ from Sensor import  views as sensor
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', sensor.sensor_home, name="sensor_home"),
+    path('RFID_log/', sensor.RFID_log, name="RFID_log"),
+    path('Setting/', sensor.setting, name="setting"),
 ]

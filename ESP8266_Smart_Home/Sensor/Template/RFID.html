@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <title>RFID</title>
 </head>
-<body>
-
+<body bgcolor="#f0ffff">
+<center>
+    <h4>RFID_log</h4>
+{% for ID,value in RFID_log.items %}
+    <p>ID: {{ value }}</p>
+    {% endfor %}
+</center>
 </body>
 </html>
