@@ -2,7 +2,7 @@
 #include <FirebaseArduino.h>
 #include <SoftwareSerial.h>
 #define WIFI_SSID       "pengpond"
-#define WIFI_PASSWORD   "0865679871"
+#define WIFI_PASSWORD   "0865679871"  
 #define FIREBASE_HOST "smarthomev01-626ae.firebaseio.com"
 #define FIREBASE_AUTH "Db0D7jIrZEutBdE8qhj03t92QPcasT8xw3CKUlv8"
 SoftwareSerial esp(D5,D6);
@@ -60,7 +60,7 @@ void check_get_nucleo(){
 }
 
 void get_firebase(){
-  
+
 }
 
 void loop() {
